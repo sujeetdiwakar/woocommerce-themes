@@ -1,0 +1,188 @@
+/*
+Theme Name: FlipMart
+Theme URI: https://sumonhasan.com/flipmart
+Author: the Sumon Hasan
+Author URI: https://sumonhasan.com/
+Description: Something.
+Version: 1.0
+Text Domain: flipmart
+
+*/
+
+/* WooCommerec Custom CSS*/
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+  width: 30.75%;
+}
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+  background-color: #59b210;
+  color: #fff;
+}
+.woocommerce a.added_to_cart {
+  background: #f1c40f none repeat scroll 0 0;
+  bottom: 0;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  left: 0;
+  padding: 5px 10px 6px;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+  width: 120px;
+  border-radius:5px
+}
+
+.woocommerce ul.products li.product h3 {
+  color: #555;
+  font-size: 15px;
+}
+
+.woocommerce .star-rating span {
+  color: #FFC808;
+}
+.woocommerce ul.products li.product .price {
+  font-size: 14px;
+  font-weight: 700;
+  width: 250px;
+  color: #333;
+}
+.woocommerce ul.products li.product .price del {
+  color: #d3d3d3;
+  display: inline-block;
+  float: right;
+  font-weight: normal;
+  opacity: 1;
+  width: 75%;
+}
+.woocommerce ul.products li.product .price ins {
+  text-decoration: none;
+}
+
+.pagination-container {
+  float: right;
+}
+
+.pagination-container ul li a.next.page-numbers, .pagination-container ul li a.prev.page-numbers {
+  background: #ccc none repeat scroll 0 0;
+  border-radius: 4px;
+  color: #fff;
+  padding: 0 9px;
+}
+.pagination-container ul li:hover a.next.page-numbers, .pagination-container ul li:hover a.prev.page-numbers {
+  background: #333;
+}
+select#woocommerce-sort-by-columns {
+    padding: 5px 3px;
+    border: 1px solid #ddd;
+}
+select.orderby {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+    width: 58%;
+}
+
+.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
+    width: 38%;
+}
+.woocommerce div.product div.images img {
+    border: 1px solid #ddd;
+}
+#owl-single-product-thumbnails{
+	margin-top:15px;
+}
+#owl-single-product-thumbnails .owl-item {
+    margin-right: 2px;
+}
+#owl-single-product-thumbnails .owl-item img {
+    width: 89%;
+}
+.cart-single .quantity{
+	display:inline-block
+}
+.cart-single input.input-text.qty.text {
+    padding: 7px 10px;
+    width: 65px;
+    border: 1px solid #ccc;
+}
+
+.cart-single .btn.btn-primary {
+    margin-top: -3px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+   opacity: 1;
+}
+h1.product_title.entry-title {
+    font-weight: 700;
+}
+.woocommerce .woocommerce-product-rating .star-rating {
+    margin: .5em 40px 0 0;
+}
+.entry-summary .price ins span.woocommerce-Price-amount{
+  color: #ff7878;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 50px;
+}
+.entry-summary .price ins span.woocommerce-Price-amount{
+    color: #ff7878;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    float: left;
+    margin-right: 5px;
+}
+.entry-summary .price del span.woocommerce-Price-amount{
+  color: #aaa;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 50px;
+  text-decoration: line-through;
+}
+.woocommerce div.product p.price, .woocommerce div.product span.price {
+    color: #77a464;
+    font-size: 1.25em;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+.woocommerce div.product p.stock {
+    font-size: .92em;
+    margin-bottom: 20px;
+}
+ul.tabs.wc-tabs {
+    width: 20%;
+    float: left;
+}
+ul.tabs.wc-tabs li {
+    background: #eee;
+    padding: 15px 20px;
+    margin-bottom: 1px;
+    font-weight: 700;
+    color: #555;
+    text-transform: uppercase;
+}
+ul.tabs.wc-tabs li.active{
+    background: #66ad44;
+}
+ul.tabs.wc-tabs li.active a{
+   color:white;
+}
+.woocommerce-Tabs-panel {
+    float: right;
+    width: 80%;
+    padding: 20px 30px 30px 40px;
+}
+.single-product.woocommerce ul.products li.product, .single-product.woocommerce-page ul.products li.product{
+  width:22.05%;
+}
+.my-class {
+    padding: 30px;
+}
